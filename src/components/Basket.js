@@ -28,7 +28,6 @@ const makeBasket = ({ eventBus }) => {
     const onToggleHandler = event => {
       if (event.target.classList.contains('basket__header')) {
         if (this.isEmpty()) return
-        console.log('header')
 
         if (this.isOpen) {
           this.close()
@@ -86,15 +85,13 @@ const makeBasket = ({ eventBus }) => {
       ({ product }) => product.id !== Number(id)
     )
 
-    console.log(basketList)
-
     this.basketList = basketList
-
-    this.render()
 
     if (this.isEmpty()) {
       this.close()
     }
+
+    this.render()
   }
 
   Basket.prototype.isEmpty = function () {
@@ -137,7 +134,6 @@ const makeBasket = ({ eventBus }) => {
 
   Basket.initialize = function (el) {
     new Basket(el).initialize()
-    console.log(`[${this.name} - INITIALIZED]`)
   }
 
   return Basket
