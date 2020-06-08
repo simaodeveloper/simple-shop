@@ -1,6 +1,8 @@
 # Simple Shop
 
-a Simple Shop interface Made with Vanilla JS + Design Patterns
+A Simple Shop interface Made with Vanilla JS + Design Patterns
+to show how to components can be reusable and a simple way
+to communicate with each other
 
 ## Status
 
