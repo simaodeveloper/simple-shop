@@ -87,9 +87,7 @@ const makeBasket = ({ eventBus }) => {
 
     this.basketList = basketList
 
-    if (this.isEmpty()) {
-      this.close()
-    }
+    if (this.isEmpty()) this.close()
 
     this.render()
   }
