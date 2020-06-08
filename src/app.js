@@ -8,7 +8,7 @@ const App = (() => {
         '[data-component="productList"]'
       )
 
-      const Product = makeProduct({ Currency })
+      const Product = makeProduct({ Currency, API })
       const ProductList = makeProductList({ eventBus })
       const Basket = makeBasket({ eventBus })
 

@@ -1,4 +1,4 @@
-const makeProduct = ({ Currency }) => {
+const makeProduct = ({ Currency, API }) => {
   const Product = function ({
     id,
     name,
