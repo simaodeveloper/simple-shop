@@ -1,0 +1,52 @@
+:root {
+  /*** Colors ***/
+
+  --color-1: #000;
+  --color-2: #fff;
+  --color-3: #ddd;
+  --color-4: #aaa;
+  --color-5: #666;
+  --color-6: #f9f9f9;
+
+  /*** Fonts ***/
+
+  --font--family: "Open-Sans", sans-serif;
+
+  /* Size */
+  --font--size: 16px;
+  --line--height: 24px;
+
+  /* Weigths */
+  --font--light: 300;
+  --font--regular: 400;
+  --font--bold: 600;
+  --font--extrabold: 700;
+
+  /***  Dimensions ***/
+
+  --gutter: var(--font--size);
+
+  /*** Objects ***/
+
+  /* Button */
+  --button--bgcolor: var(--color-4);
+  --button--color: var(--color-2);
+
+  /*** Components ***/
+
+  /* Header */
+  --header--bgcolor: var(--color-3);
+
+  /* Product */
+  --product--bgcolor: var(--color-2);
+  --product--color: var(--color-1);
+
+  /* Basket */
+  --basket--bgcolor: var(--color-5);
+  --basket--color: var(--color-2);
+
+  /*** Scope ***/
+
+  /* Shelf Product */
+  --shelf-product--bgcolor: var(--color-6);
+}

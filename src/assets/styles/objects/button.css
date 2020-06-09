@@ -1,0 +1,10 @@
+.button {
+  padding: calc(var(--gutter) / 1.5) calc(var(--gutter) * 2);
+  border: 1px solid transparent;
+  font-size: calc(var(--font-size) / var(--font-size) * 0.2);
+}
+
+.button--default {
+  background: var(--button--bgcolor);
+  color: var(--button--color);
+}

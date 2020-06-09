@@ -1,0 +1,17 @@
+.shelf {
+  margin-top: calc(var(--gutter) * 2);
+}
+
+.shelf__container {
+  padding: calc(var(--gutter) * 2);
+  background: var(--shelf-product--bgcolor);
+}
+
+.shelf__content {
+  overflow: hidden;
+}
+
+.shelf__content .loader {
+  margin-top: 50px;
+  text-align: center;
+}

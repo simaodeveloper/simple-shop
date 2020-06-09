@@ -1,0 +1,31 @@
+.product {
+  display: flex;
+  padding: calc(var(--gutter) * 2);
+  flex-direction: column;
+  align-items: center;
+  background: var(--product--bgcolor);
+}
+
+.product__name {
+  margin-bottom: var(--gutter);
+}
+
+.product__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: var(--color-5);
+  margin-bottom: var(--gutter);
+}
+
+.product__description {
+  margin-bottom: var(--gutter);
+}
+
+.product__price {
+  margin-bottom: var(--gutter);
+}
+
+.product__button {
+  width: 100%;
+}

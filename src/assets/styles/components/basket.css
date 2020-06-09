@@ -1,0 +1,48 @@
+.basket {
+  position: relative;
+  width: 420px;
+  padding: var(--gutter);
+  background: var(--basket--bgcolor);
+  color: var(--basket--color);
+}
+
+.basket--open .basket__wrap {
+  display: block;
+}
+
+.basket__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basket__header > * {
+  pointer-events: none;
+}
+
+.basket__wrap {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--basket--bgcolor);
+}
+
+.basket__product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--gutter);
+}
+
+.basket__product__button {
+  width: 25px;
+  border: 0 none;
+  /* margin-top: 1px; */
+  color: var(--basket--color);
+  background: transparent;
+  font-size: var(--font--size);
+  font-weight: var(--font--bold);
+  font-family: var(--font--family);
+}

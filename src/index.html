@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <base href="/src/" />
+    <link rel="stylesheet" href="assets/styles/index.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="app__header">
+        <header class="header container">
+          <span class="header__logo">logo</span>
+          <div class="header__basket" data-component="basket"></div>
+        </header>
+      </div>
+      <main class="app__main">
+        <section class="shelf">
+          <div class="shelf__container container">
+            <h2>Lista de Produtos</h2>
+            <div class="shelf__content" data-component="productList"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="assets/scripts/config.js"></script>
+    <script src="assets/scripts/libraries/EventEmitter.js"></script>
+    <script src="assets/scripts/libraries/Currency.js"></script>
+    <script src="assets/scripts/services/api.js"></script>
+    <script src="assets/scripts/components/Loader.js"></script>
+    <script src="assets/scripts/components/Product.js"></script>
+    <script src="assets/scripts/components/ProductList.js"></script>
+    <script src="assets/scripts/components/Basket.js"></script>
+    <script src="assets/scripts/app.js"></script>
+  </body>
+</html>

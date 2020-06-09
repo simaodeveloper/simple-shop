@@ -1,0 +1,17 @@
+.app {
+  height: 100vh;
+  display: grid;
+  margin: 0 var(--gutter);
+  grid-template-rows: calc(var(--gutter) * 2 + 80px) 1fr;
+  grid-template-areas:
+    "header"
+    "content";
+}
+
+.app__header {
+  grid-area: header;
+}
+
+.app__main {
+  grid-area: content;
+}

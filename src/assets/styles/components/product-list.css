@@ -1,0 +1,10 @@
+.product-list {
+  margin: calc(var(--gutter) * 2) calc(var(--gutter) * -1) 0;
+  display: flex;
+  list-style: none;
+}
+
+.product-list__item {
+  flex: 1;
+  padding: 0 var(--gutter);
+}
