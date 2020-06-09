@@ -7,7 +7,7 @@ to communicate with each other
 ## Status
 
 - [ ] Create modals to confront the user against his actions
-- [ ] Fix styles to make interface more enjoyable
+- [x] Fix styles to make interface more enjoyable
 - [ ] Apply unit tests
 
 ## Features
