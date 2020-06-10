@@ -13,14 +13,11 @@ const App = (() => {
       const ProductList = makeProductList({ eventBus });
       const Basket = makeBasket({ eventBus });
 
-      Loader.initialize(productListRoot);
       Basket.initialize(basketRoot);
-
-      const products = await Product.fetchAll();
-
-      setTimeout(() => {
-        ProductList.initialize(productListRoot, products);
-      }, 500);
+      Loader.initialize(productListRoot, async (root) => {
+        const products = await Product.fetchAll();
+        ProductList.initialize(root, products);
+      });
     },
   };
 })();

@@ -147,7 +147,9 @@ const makeBasket = ({ eventBus }) => {
   };
 
   Basket.initialize = function (el) {
-    new Basket(el).initialize();
+    const instance = new Basket(el);
+    instance.initialize();
+    return instance;
   };
 
   return Basket;
